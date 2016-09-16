@@ -2,7 +2,7 @@
 
 public class Move : MonoBehaviour
 {
-	void Update()
+    void Update()
     {
         // Rotate our cube head based on the time elapsed to give it some motion.
         // We use a sine function since it's periodic (ie. loops forever), is

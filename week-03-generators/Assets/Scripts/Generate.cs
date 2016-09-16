@@ -110,7 +110,7 @@ public class Generate : MonoBehaviour
         );
     }
 	
-	void Update()
+    void Update()
     {
         // If we press Space, restart the scene.
         // (The scene also has to be added to the list of included scenes
@@ -118,5 +118,5 @@ public class Generate : MonoBehaviour
 	    if(Input.GetKeyDown(KeyCode.Space)) {
 	        SceneManager.LoadScene(0);
 	    }
-	}
+    }
 }
